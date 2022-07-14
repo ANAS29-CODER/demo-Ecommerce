@@ -1,0 +1,680 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+
+    user-select: none;
+
+
+
+}
+
+label {
+    display: inline-block;
+    font-weight: 100;
+}
+
+/***********Start of login admin page*****************/
+
+
+.navbar-brand {
+    font-size: 25px;
+    font-weight: bolder !important;
+    color: rgba(45, 140, 184, 0.9) !important;
+}
+
+.navbar {
+    background: #f5f5f5;
+    margin-top: 1%;
+}
+
+.int button {
+    background-color: rgb(229, 226, 226);
+}
+
+.int button a {
+    color: #101010;
+}
+
+.int button a:hover {
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 10px;
+    transition: .2s padding;
+    outline: unset;
+
+}
+
+/* end of navbar style*/
+.loginpage {
+    width: 100%;
+}
+
+.loginpage .login {
+    max-width: 445px;
+    height: AUTO;
+    background: #e9f0f6;
+    margin: 0px auto;
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+
+.loginpage .login input {
+    text-align: justify;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.loginpage .login input:focus {
+    color: rgb(99, 221, 181)
+}
+
+.loginpage .login .btn-primary {
+
+    padding: 10px 151px;
+    border-radius: 20px;
+}
+
+
+.loginpage>h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 48px 50px 2pc 50px;
+    color: black;
+}
+
+.loginpage .login label {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 500 !important;
+    color: black !important;
+    margin: 3px;
+}
+
+.loginpage p.forget {
+    text-align: end !important;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.loginpage p.forget a {
+    color: rgb(85, 88, 90);
+    font-weight: bolder;
+
+}
+
+.loginpage p.forget a:hover {
+    text-decoration: none;
+    color: rgb(58, 60, 61);
+
+
+}
+
+input:required {
+    border-color: #f0adad;
+    border-width: .5px;
+
+}
+
+/***********End of login admin page*******************/
+
+.head {
+    background: #f2f2f2;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: minmax(10px, auto) 1fr;
+
+
+
+}
+
+main {
+    padding-top: 2px;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 0rem;
+
+    grid-template-columns: 1fr;
+
+}
+
+.head div {
+    max-width: 99%;
+}
+
+.links {
+    height: 100vh;
+    width: 213px;
+    background-color: #11101d;
+    z-index: 3;
+    transition: all ease .2s;
+
+
+
+}
+
+#btns {
+    cursor: pointer;
+
+}
+
+.logo {
+
+    color: white;
+    font-size: 28px;
+    display: flex;
+
+}
+
+.logo img {
+    max-width: 50px;
+    overflow: hidden;
+
+}
+
+.logo .dbt {
+    visibility: hidden;
+    color: white;
+    margin-left: 44px;
+}
+
+.content {
+
+
+    display: flex;
+    color: white;
+    flex-direction: column;
+    position: relative;
+    height: 90vh;
+    top: 1.1rem;
+    padding-top: 15px;
+
+}
+
+ul {
+    display: contents;
+}
+
+ul li {
+
+    font-size: larger;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 8px;
+    transition: all ease .2s;
+    overflow-x: hidden;
+}
+
+ul li:hover {
+    background: aliceblue;
+}
+
+ul li:hover a {
+
+    color: black;
+    text-decoration: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 0px;
+    font-weight: bolder;
+    display: flex;
+}
+
+ul li a hover {
+    text-decoration: none;
+
+}
+
+ul li a.active {
+    background: red;
+    color: white;
+
+    align-items: center;
+}
+
+.active {
+    background: red;
+    color: white;
+
+    align-items: center;
+}
+
+ul li a.active:before {
+    content: "";
+    width: 6px;
+    background: blue;
+    height: 42px;
+    margin-right: 10px;
+}
+
+li a i {
+    margin-right: 14px;
+    margin-left: 4px;
+}
+
+.linss {
+    width: 213px !important;
+    /* z-index: 3;*/
+    overflow: hidden;
+    transition: all ease-in-out .2s;
+}
+
+.lef {
+    margin-left: -65px;
+
+}
+
+.dbtl {
+
+    margin-left: 44px !important;
+
+}
+
+.icoa li a i {
+    margin-right: 47px;
+    margin-left: 23px;
+    margin: auto 26px;
+}
+
+.loim {
+    display: block !important;
+}
+
+.liai {
+    margin-right: 47px;
+    margin-left: 23px;
+    margin: auto 10px;
+}
+
+.liabe {
+    margin-right: 0px;
+}
+
+/*Media Query *********************************/
+@media screen and (max-width:997px) {
+    main {
+        z-index: 2;
+    }
+
+
+
+    .head .links {
+        width: 72px;
+        /* z-index: 3;*/
+        overflow: hidden;
+        transition: all ease-in-out .2s;
+    }
+
+    .logo img,
+    .logo span {
+        display: none;
+    }
+
+    .logo .dbt {
+        visibility: visible;
+        margin: 0px auto;
+    }
+
+    li a i {
+        margin-right: 47px;
+        margin-left: 23px;
+        margin: auto 26px;
+    }
+
+    ul li a.active:before {
+        margin-right: 0px;
+    }
+
+
+}
+
+/*
+@media screen and (max-width:775px) {
+main{
+    
+    grid-template-columns:   1fr ;
+        grid-auto-rows: 100px;
+    
+}
+}*/
+
+
+
+
+/**************  Start of Dashboard style ********/
+
+.mai {
+    text-align: center;
+    background-image: url("backg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.mai h1 {
+    background: #11101d;
+    color: #fff5f5;
+    font-weight: bolder;
+    margin: 15px auto;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 15px;
+
+}
+
+/************************end of dashboard****************************/
+/************************Start of cat****************************/
+
+
+.cat1 {
+    margin: 15px auto;
+    display: block;
+}
+
+.stores h1,
+.cat h1 {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    margin: 15px auto;
+}
+
+.cat1 .cats {
+    display: flex;
+    padding: 30px 20px;
+    font-weight: bolder;
+
+    max-width: 840px;
+    background: #4d4d55;
+    position: relative;
+    margin-bottom: 10px;
+
+}
+
+.cats p {
+
+    font-size: 21px;
+    color: white;
+    font-weight: bolder;
+}
+
+.btnss {
+
+    position: absolute;
+    right: 1%;
+}
+
+.btnss a {
+    display: none;
+    color: white;
+    font-weight: bolder;
+    margin-right: 2px;
+}
+
+.cats:hover .btnss a {
+    display: inline;
+
+
+}
+
+/*********operation of act****************/
+
+
+
+
+
+
+/***********End of cat********************/
+
+/***********Start of Stores***************/
+/*.stores{
+       width: 90%;
+    margin: 4px 20px;
+   
+ }
+ 
+ .sections{
+   margin: 5px auto;
+    display: grid;
+    grid-template-columns: minmax(100px, 300px) minmax(100px, 300px) minmax(100px, 300px);
+    column-gap: 2rem;
+ }
+
+ */
+.sections {
+
+    margin: 0px auto;
+}
+
+.sections .row {
+
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+}
+
+.sections .row>div {
+    position: relative;
+    background: #1f1f4e;
+    height: auto;
+
+    border-radius: 20px;
+    color: white;
+    font-weight: bolder;
+    padding: 0%;
+    margin: 5px 8px;
+
+
+}
+
+.fv .cs {
+    margin-left: 0px;
+}
+
+
+.sections .row>div:hover {
+    /* background-color: #04AA6D;*/
+
+    background-color: #11101d;
+    z-index: 1;
+    transition: all ease-in-out .2s;
+
+}
+
+.sections .row>div:hover .bts {
+    display: inline;
+    margin-left: 0px;
+    z-index: 6;
+    opacity: 1;
+    transition: all 5s ease-in-out;
+}
+
+
+
+.secim img {
+    width: 101%;
+    height: 155px;
+    max-height: 168px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.secin {
+    margin: 5px 10px;
+    position: relative;
+}
+
+.secin .bts {
+    position: absolute;
+    bottom: -8%;
+    right: 0px;
+    margin: 0px auto;
+    display: inline;
+    /* margin: -50px; */
+    display: none;
+    margin-left: -153px;
+}
+
+.bts a {
+    max-width: 68px;
+}
+
+.secin h4 {
+    position: relative;
+}
+
+.secin h4 span {
+    position: absolute;
+    right: 0%;
+}
+
+div .dropdown {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.form-select {
+    display: inline-block;
+    width: 300px;
+    margin-left: 10px;
+}
+
+/*********Rating**********/
+
+
+
+main .heading {
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+.fa {
+    font-size: 25px;
+}
+
+.checked {
+    color: orange;
+    display: inline-block;
+
+}
+
+/* Three column layout */
+.side {
+    float: left;
+    width: 15%;
+    margin-top: 10px;
+}
+
+.middle {
+    margin-top: 10px;
+    float: left;
+    width: 70%;
+}
+
+/* Place text to the right */
+.right {
+    text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The bar container */
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+
+/* Individual bars */
+.bar-5 {
+    width: 60%;
+    height: 18px;
+    background-color: #04AA6D;
+}
+
+.bar-4 {
+    width: 30%;
+    height: 18px;
+    background-color: #2196F3;
+}
+
+.bar-3 {
+    width: 10%;
+    height: 18px;
+    background-color: #00bcd4;
+}
+
+.bar-2 {
+    width: 4%;
+    height: 18px;
+    background-color: #ff9800;
+}
+
+.bar-1 {
+    width: 15%;
+    height: 18px;
+    background-color: #f44336;
+}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+
+    .side,
+    .middle {
+        width: 100%;
+    }
+
+    .right {
+        display: none;
+    }
+}
+
+.rate {
+    margin: 28px 20px 30px;
+}
+
+/*********end of Rating**********/
+
+
+/*********start of update**********/
+
+.update {
+    font-weight: 800;
+    margin: 24px auto;
+    padding: 27px 20px;
+    background: #11101d;
+    color: white;
+    height: fit-content;
+}
+
+.update h1 {
+    margin: 20px 0px;
+    text-align: center;
+
+}
+
+.update form input {
+    width: 400px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+/*********end of update**********/
